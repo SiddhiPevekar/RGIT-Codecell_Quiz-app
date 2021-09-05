@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
-import Quiz from './images/Quiz.svg'
+import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import Quiz from './images/Quiz.png';
 
 const Home = () => {
     return (
@@ -11,7 +11,7 @@ const Home = () => {
                     <h3>Brings to you an Online Quiz Portal</h3>
                     <hr/>
                     <p>That will challenge your current Technical skill and enable you to upskill yourself and learn</p>
-                    <button className="btn btn-primary btn1">Explore RGIT Codecell</button>
+                    <a href="https://www.rgitcodecell.in/"><button className="btn btn-primary btn1">Explore RGIT Codecell</button></a>
                     <button className="btn btn-primary btn2">Start Quiz</button>
                     <div className="social-media">
                         <a href="https://www.linkedin.com/company/rgit-codecell/"className="social_media">
