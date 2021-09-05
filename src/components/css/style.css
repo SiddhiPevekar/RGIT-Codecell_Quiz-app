@@ -39,15 +39,16 @@ body{
     .hero-section-img{
         order: 1;
     }
-    /* .btn2{
-        margin-top: 5px;
-    } */
     .hero-section-img img{
         width: 250px!important;
         height: 100%;
     }
 }
-
+@media screen and (max-width: 560px) {
+    .btn2{
+        margin-top: 5px;
+    }
+}
 .hero-section-img img{
     width: 600px;
     height: 100%;
