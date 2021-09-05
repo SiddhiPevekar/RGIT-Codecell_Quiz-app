@@ -52,6 +52,28 @@ body{
     width: 600px;
     height: 100%;
 }
+.hero-section-img .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    /*alternate-reverse is used for smooth effect for both transitions up and down*/
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
 .hero-section-content{
     margin-left: 60px;
     margin-bottom: 50px;

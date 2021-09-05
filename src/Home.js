@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
 
                 <div className="hero-section-img">
-                    <img src={Quiz} alt=" " />
+                    <img src={Quiz} alt=" " className="img-fluid animated" />
                 </div>
             </div>
         </>
