@@ -33,8 +33,24 @@ body{
         grid-template-columns: 1fr;
     }
     .hero-section-content{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px!important;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-section-content{
         margin-top: 50px;
         order:2;
+    }
+    .hero-section-content p{
+        text-align: center!important;
+    }
+    .btn2{
+        margin-top: 10px;
+    }
+    .social-media{
+        transform: translateY(20px)!important;
     }
     .hero-section-img{
         order: 1;
@@ -44,11 +60,7 @@ body{
         height: 100%;
     }
 }
-@media screen and (max-width: 560px) {
-    .btn2{
-        margin-top: 5px;
-    }
-}
+
 .hero-section-img img{
     width: 600px;
     height: 100%;
