@@ -9,7 +9,7 @@ body{
     color: #fff;
     font-size: 22px;
     font-family: "Be Vietnam";
-    overflow: scroll!important;
+    overflow-x: hidden;
 }
 /* .container-fluid{
     padding: 0px !important;
@@ -177,4 +177,3 @@ body{
     transform: translateY(5px);
 
 }
-
